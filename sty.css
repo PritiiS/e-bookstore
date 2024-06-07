@@ -1,0 +1,261 @@
+      *{
+       margin:0px;
+       padding:0px;
+       box-sizing:border-box;
+       transition:all .3s linear;
+       }
+       body{
+         font-family: 'Poppins', sans-serif;
+         scroll-behavior: smooth;
+         scroll-padding-top:1rem;
+         background:linear-gradient(101deg,rgb(229, 232, 232) 30%, rgb(234, 221, 202) 17%) 60% repeat;
+       }
+
+       .container-fluid{
+         font-size:20px;
+       }
+       .container-fluid .nav span{
+         padding:8px;
+       }
+       .container-fluid a{
+         padding:15px;
+         color:black;
+       }
+       .container-fluid .navbar-na{
+         float:right;
+       }
+       .container-fluid .collapse a:hover{
+         border:solid black;
+         border-radius:8px;
+       }
+       #carousel1 {
+         border:3px solid grey;
+         border-radius:3px;
+         box-shadow: 4px 5px #888888;
+       }
+
+       .carousel-inner img{
+         height:450px;
+       }
+       .carousel-inner .carousel-item .carousel-caption {
+          font-size:15px;
+          color:black;
+       }
+       .slide .btn span{
+         font-size:18px;
+         font-style:bold;
+       }
+       .slide .btn:hover{
+         text-decoration:none;
+         border:none;
+       }
+
+       #box1{
+         border-radius:3px;
+         border:2px solid grey;
+         background:rgb(253, 242, 233);
+         font-style: italic;
+       }
+       #box2{
+         font-size:35px;
+       }
+       .d-flex{
+          text-align:center;
+       }
+       #box2 .hide{
+        display:none;
+        font-size:20px;
+       }
+       .box2 h3:hover + .hide{
+         display:block;
+         color:red;
+            align-content:center;
+        border:2px solid black;
+       }
+       #box2 .btn{
+        border:2px solid black;
+        font-size:23px;
+        color:black;
+        width:140px;
+        align-content:center;
+       }
+       .btn:hover{
+         background:rgb(193,154,150);
+       }
+
+       .container-fluid .logo{
+         align-content:center;
+         padding:10px;
+       }
+
+       .slide-books a img{
+           height: 300px;
+       }
+       .slide-books a:hover img{
+           transform: scale(.8);
+       }
+       .items{
+          align-content:center;
+       }
+       .items .logo{
+         justify-content:center;
+       }
+       .items .logo a{
+        font-size:50px;
+        text-decoration:none;
+       }
+       .items .logo h3{
+         font-size:30px;
+       }
+       .items .logo p{
+         font-size:20px;
+       }
+
+       #featured .feature{
+         text-align:center;
+         font-size:50px;
+       }
+       #featured .fea_wrapper .box{
+              align-items:center;
+              gap:3rem;
+       }
+       #featured .fea_wrapper .box:hover .icons1{
+           transform: translateY(8px);
+       }
+       #featured .fea_wrapper .box .icons1{
+           border: 3px solid black;
+           z-index:10;
+           border-radius:3px;
+           text-align:center;
+       }
+       #featured .fea_wrapper .box .icons1 a{
+           font-size:32px;
+           color:black;
+       }
+       #featured .fea_wrapper .box .icons1 a:hover{
+            background:rgb(237, 187, 153);
+            border-radius:4px;
+       }
+       #featured .fea_wrapper .box .image img{
+            height:200px;
+       }
+       #featured .fea_wrapper .box .image:hover img{
+           transform:scale(1.2);
+       }
+       #featured .fea_wrapper .box .head{
+           text-align:center;
+       }
+       #featured .fea_wrapper .box .head h3{
+          font-size:24px;
+          color:black;
+       }
+       #featured .fea_wrapper .box .head .price{
+           font-size:19px ;
+           color:black;
+       }
+       #featured .fea_wrapper .box .head .price span{
+           font-size:17px;
+           color:red;
+           text-decoration: line-through;
+       }
+
+
+       #releases{
+            display: flex;
+            flex-direction: column;
+       }
+        #releases .release{
+          text-align:center;
+          font-size:50px;
+        }
+        #releases .xyz{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:flex-start;
+        gap:2rem;
+        }
+       #releases .content{
+        text-decoration:none;
+       }
+       #releases .xyz a img{
+          height:250px;
+       }
+       #releases .box-2 img:hover{
+         transform: scale(.8);
+       }
+       #releases .xyz a:hover{
+           border:brown;
+       }
+       #releases .xyz .content h3{
+          font-size:35px;
+          color:black;
+        }
+       #releases .xyz .content .price{
+         font-size:28;
+         color:black;
+       }
+        #releases .xyz .content .price span{
+          color:black;
+          text-decoration: line-through;
+          font-size:28;
+        }
+        #releases .xyz .content .stars{
+            font-size: 1.5rem;
+            color:green;
+        }
+
+        #reviews h1{
+           text-align:center;
+          font-size:50px;
+        }
+       #reviews .rev{
+          font-size:28px;
+       }
+
+       #reviews .rev img{
+        height:150px;
+            width:130px;
+            border-radius: 50%;
+            object-fit: cover;
+       }
+       #reviews .rev h3{
+         font-size:25px;
+             padding:2px;
+       }
+       #reviews .rev p{
+         font-size:17px;
+             padding:1px;
+             line-height:25px;
+             letter-spacing:1px;
+       }
+       #footer {
+         font-size:12px;
+         justify-content:center;
+       }
+       #foot{
+        line-height:1;
+        align-content: center;
+           color:white;
+       }
+       #foot h3{
+        font-size:20px;
+       }
+       #foot .inner a{
+         color:white;
+         text-decoration:none;
+         font-size:20px;
+       }
+
+       #foot .inner a:hover{
+         text-decoration:underline;
+       }
+
+      .reg {
+       margin:100px;
+       border:2px solid black;
+       line-height:3;
+      }
+
+
