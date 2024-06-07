@@ -1,2 +1,2 @@
 # e-bookstore
-its a front for online book store website .
+its a front-end for online book store website .
